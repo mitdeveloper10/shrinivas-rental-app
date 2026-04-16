@@ -1,5 +1,7 @@
 # Shrinivas Rental App
 
+**🌐 Live Demo:** [https://shrinivas.wuaze.com/](https://shrinivas.wuaze.com/)
+
 A fully functional property rental web application built using **HTML, CSS, JavaScript, PHP, and MySQL**. 
 
 ## 📖 About the Project
