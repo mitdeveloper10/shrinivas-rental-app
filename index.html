@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Rental Website</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+    
+    <div class="header">
+        <nav id="navbar">
+            <img src="images/logo3.png" class="logo">
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="myproperty.html" class="active">My Property</a></li>
+                <li><a href="/listing.html" class="active" >properties</a></li>
+                <li><a href="#" class="active">Contact</a></li>
+              
+            </ul>
+            <a href="register.html" class="register-btn" target="action">Register Now</a>
+            <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+        </nav>
+      <!--  <div class="slideshow-container">
+            <img src="images/house-1.png" alt="Background 1">
+            <img src="images/house-2.png" alt="Background 2">
+            <img src="images/house-4.png" alt="Background 3">
+            <img src="images/house-5.png" alt="Background 4">
+        </div>-->
+        
+        <div class="container">
+           
+            <h1>Find Your Perfect Homes.</h1>
+            <marquee width="100%" direction="left" height="100px"><h2>
+                Browse through our extensive property listings and find the best rental properties.</h2>
+                </marquee>
+            <div class="search-bar">
+                <form>
+                    <div class="location-input">
+                        <label for="text">Location</label>
+                        <input type="text" placeholder="Where are you going?" id="text">
+                    </div>
+                    <div>
+                        <label for="text1">Check in</label>
+                        <input type="text" placeholder="Add Date" id="text1">
+                    </div>
+                    <div>
+                        <label for="text2">Check out</label>
+                        <input type="text" placeholder="Add Date" id="text2">
+                    </div>
+                    <div>
+                        <label for="text3">Guest</label>
+                        <input type="text" placeholder="Add Guest" id="text3">
+                    </div>
+                    <button type="submit"><img src="images/search.png"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <section class="featured-properties">
+        <h2>Featured Properties</h2>
+        <div class="property-list">
+            <div class="property">
+                <img src="images/house-4.png" alt="House 1" >
+                <h3>Luxury Apartment</h3>
+                <p>Location: New York</p>
+                <p>Price: 10,000Rs/month</p>
+                <a href="search.html" class="btn">View More</a>
+            </div>
+            <div class="property">
+                <img src="images/house-2.png" alt="House 2">
+                <h3>Modern Villa</h3>
+                <p>Location: Los Angeles</p>
+                <p>Price: 3000Rs/month</p>
+                <a href="search.html" class="btn">View More</a>
+            </div>
+            <div class="property">
+                <img src="images/house-2.png" alt="House 2">
+                <h3>Modern Villa</h3>
+                <p>Location: Los Angeles</p>
+                <p>Price: 3000Rs/month</p>
+                <a href="search.html" class="btn">View More</a>
+            </div>
+            <div class="property">
+                <img src="images/house-2.png" alt="House 2">
+                <h3>Modern Villa</h3>
+                <p>Location: Los Angeles</p>
+                <p>Price: 3000Rs/month</p>
+                <a href="search.html" class="btn">View More</a>
+            </div>
+            <div class="property">
+                <img src="images/house-2.png" alt="House 2">
+                <h3>Modern Villa</h3>
+                <p>Location: Los Angeles</p>
+                <p>Price: 3000Rs/month</p>
+                <a href="search.html" class="btn">View More</a>
+            </div>
+        </div>
+    </section>
+
+
+        <div class="footer">
+            <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <hr>
+            <p>Copyright &copy; 2025 Shri Nivas - All Rights Reserved</p>
+        </div>
+    </div>
+    <script>
+
+        var navBar = document.getElementById("navbar");
+
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu")
+        }
+    </script>
+</body>
+
+</html>

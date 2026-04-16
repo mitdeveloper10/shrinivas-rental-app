@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Property - House Rental</title>
+    <link rel="stylesheet" href="property.css">
+</head>
+<body>
+    <nav id="navbar">
+        <img src="images/logo3.png" class="logo">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="house.html">Houses</a></li>
+        </ul>
+        <a href="login.php" class="register-btn">Register Now</a>
+    </nav>
+
+    <div class="container">
+        <h1>My Properties</h1>
+        <p>Manage your listed properties here. Add, edit, or remove listings easily.</p>
+
+        <div class="property-list" id="propertyList">
+            <!-- Property Cards (Dynamically Updated) -->
+        </div>
+
+        <button class="add-btn" onclick="openAddPropertyModal()">Add New Property</button>
+    </div>
+
+    <!-- Modal for Adding Property -->
+    <div id="addPropertyModal" class="modal">
+        <div class="modal-content">
+            <h2>Add New Property</h2>
+            <label>Property Name:</label>
+            <input type="text" id="propertyName">
+
+            <label>Upload Images:</label>
+            <input type="file" id="propertyImages" multiple>
+
+            <label>Location:</label>
+            <input type="text" id="propertyLocation">
+            <div id="map"></div>  <!-- Google Maps for location -->
+
+            <label>Price:</label>
+            <input type="text" id="propertyPrice">
+
+            <button onclick="saveNewProperty()">Save Property</button>
+            <button onclick="closeAddPropertyModal()">Cancel</button>
+        </div>
+    </div>
+
+    
+
+    <div class="footer">
+        <p>&copy; 2025 Shri Nivas. All Rights Reserved.</p>
+    </div>
+
+    <script src="property.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
