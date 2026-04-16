@@ -2,6 +2,9 @@
 
 A fully functional property rental web application built using **HTML, CSS, JavaScript, PHP, and MySQL**. 
 
+## 📖 About the Project
+The **Shrinivas Rental App** is designed to seamlessly connect property owners with potential tenants. This platform allows landlords to effortlessly list their properties (houses, apartments, or rooms) while providing house hunters a user-friendly and intuitive search experience to find their next home. It features secure user authentication, dynamic image uploading for properties, and a dedicated backend for administrative control.
+
 ## 🏠 Features
 - **Browse Properties**: Users can view available houses and apartments for rent.
 - **Add Property**: Easy submission of new properties to the platform.
